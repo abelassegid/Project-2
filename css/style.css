@@ -1,0 +1,133 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 1.6rem;
+    background-color: #fafafa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+p{
+    word-break: break-all;
+}
+.container{
+    padding: 0 2.5rem;
+}
+
+
+
+/* start of header */
+.header-main{
+    width: 100%;
+}
+.container{
+    margin:0 auto;
+    width: 100%;
+}
+.header{
+    width: 100%;
+}
+.logo a{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.logo{
+    text-align: center;
+    padding: 1rem;
+}
+.menu{
+    background-color: white;
+    margin-top: 2rem;
+    text-align: center;
+}
+.menu a{
+    display: block;
+    padding: .9rem 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: white;
+}
+.menu li{
+    border-bottom: .5rem solid #fafafa;
+}
+
+/* header page tablet */
+@media(min-width:320px){
+    .menu li{
+        display: inline-block;
+    }
+    .header{
+        padding-top: 3rem;
+    }
+    .menu a{
+        font-size: 1.2rem;
+    }
+}
+
+/* about page desktop */
+@media(min-width:768px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 1025px;
+    }
+}
+
+/* end of header */
+
+
+
+/* start of about */
+.about{
+    text-align: center;
+}
+.col-2-1{
+    margin-bottom: 2rem;
+}
+.col-2-2 p{
+    color: gray;
+    text-align: center;
+}
+/* about page tablet */
+@media(min-width:550px){
+    .about{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 3rem;
+    }
+    .col-2-1{
+        width: 40%;
+    }
+    .col-2-2{
+        width: 60%;
+    }
+    .col-2-2 p{
+        text-align: left;
+    }
+    .about-main{
+        margin-top: 4rem;
+    }
+}
