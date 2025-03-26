@@ -226,6 +226,10 @@ p{
         justify-content: space-between;
         align-items: center;
         margin-top: 50px;
+        font-size: 1.2rem;
+    }
+    .footer .back{
+        display: none;
     }
    
 }
@@ -236,8 +240,6 @@ p{
         align-items: center;
         margin-top: 50px;
     }
-    .footer .back{
-        display: none;
-    }
+ 
 }
 /* end of footer */
