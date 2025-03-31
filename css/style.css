@@ -218,16 +218,14 @@ p{
     text-transform: uppercase;
     font-size: 12px;
 }
-@media(max-width:500px){
-    .footer .menu{
-        display: none;
-    }
-    footer .back{
-        font-size: 17px;
-    }
-    .footer .logo a{
-        font-size: 12px;
-    }
+.footer .menu{
+    display: none;
+}
+footer .back{
+    font-size: 17px;
+}
+.footer .logo a{
+    font-size: 12px;
 }
 @media(min-width:500px){
     .footer ,menu{
@@ -240,6 +238,9 @@ p{
     }
     .footer .back{
         display: none;
+    }
+    .footer .menu{
+        display: block;
     }
    
 }
