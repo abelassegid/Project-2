@@ -72,7 +72,7 @@ p{
 }
 
 /* header page tablet */
-@media(min-width:360px){
+@media(min-width:768px){
     .menu li{
         display: inline-block;
     }
@@ -85,7 +85,7 @@ p{
 }
 
 /* about page desktop */
-@media(min-width:768px){
+@media(min-width:1024px){
     .header{
         display: flex;
         justify-content: space-between;
@@ -113,7 +113,7 @@ p{
     text-align: center;
 }
 /* about page tablet */
-@media(min-width:550px){
+@media(min-width:768px){
     .about{
         display: flex;
         flex-direction: row-reverse;
@@ -162,7 +162,7 @@ p{
     color: #333;
 
 }
-@media(min-width:500px){
+@media(min-width:768px){
     .box{
         width: 46%;
         margin-right: 3%;
@@ -172,7 +172,7 @@ p{
         flex-wrap: wrap;
     }
 }
-@media(min-width:1000px){
+@media(min-width:1024px){
     .box{
         width: 31%;
         margin-right: 22px;
@@ -227,7 +227,7 @@ footer .back{
 .footer .logo a{
     font-size: 12px;
 }
-@media(min-width:500px){
+@media(min-width:768px){
     .footer ,menu{
         display: block;
         display: flex;
@@ -244,7 +244,7 @@ footer .back{
     }
    
 }
-@media(min-width:1000px){
+@media(min-width:1024px){
     .footer{
         display: flex;
         justify-content: space-between;
